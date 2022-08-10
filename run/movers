@@ -1,0 +1,3 @@
+clear
+pyuic5 -x UIComps/MoversWindow.ui -o UIComps/Movers_UI.py
+python moversLists.py

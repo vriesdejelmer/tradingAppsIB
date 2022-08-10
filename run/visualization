@@ -1,0 +1,3 @@
+clear
+pyuic5 -x UIComps/VisualizationWindow.ui -o UIComps/Visualization_UI.py
+python optionsVisualization.py

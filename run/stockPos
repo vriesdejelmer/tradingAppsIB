@@ -1,0 +1,4 @@
+clear
+pyuic5 -x UIComps/StockPositionWindow.ui -o UIComps/StockPosition_UI.py
+pyuic5 -x UIComps/StockListTab.ui -o UIComps/StockListTab_UI.py
+python stockPositionListing.py

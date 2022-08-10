@@ -1,0 +1,5 @@
+clear
+pyuic5 -x UIComps/PositionWindow.ui -o UIComps/Position_UI.py
+pyuic5 UIComps/OptionsTab.ui -o UIComps/OptionsTab_UI.py
+pyuic5 UIComps/SpecOptionsTab.ui -o UIComps/SpecOptionsTab_UI.py
+python optionsPositionListing.py

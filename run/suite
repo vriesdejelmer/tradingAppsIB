@@ -1,0 +1,12 @@
+clear
+pyuic5 -x UIComps/QTGeneration/AppLauncher.ui -o UIComps/QTGeneration/AppLauncher_UI.py
+pyuic5 UIComps/QTGeneration/StockPositionWindow.ui -o UIComps/QTGeneration/StockPosition_UI.py
+pyuic5 UIComps/QTGeneration/StockListTab.ui -o UIComps/QTGeneration/StockListTab_UI.py
+pyuic5 UIComps/QTGeneration/MoversWindow.ui -o UIComps/QTGeneration/Movers_UI.py
+pyuic5 UIComps/QTGeneration/StairstepWindow.ui -o UIComps/QTGeneration/Stairstep_UI.py
+pyuic5 UIComps/QTGeneration/PositionWindow.ui -o UIComps/QTGeneration/Position_UI.py
+pyuic5 UIComps/QTGeneration/OptionsTab.ui -o UIComps/QTGeneration/OptionsTab_UI.py
+pyuic5 UIComps/QTGeneration/SpecOptionsTab.ui -o UIComps/QTGeneration/SpecOptionsTab_UI.py
+pyuic5 UIComps/QTGeneration/ListEditor.ui -o UIComps/QTGeneration/ListEditor_UI.py
+pyuic5 UIComps/QTGeneration/DataDownloader.ui -o UIComps/QTGeneration/DataDownloader_UI.py
+python appLauncher.py
